@@ -18,19 +18,23 @@ export default async function Home() {
       <>
       <span className="font-bold text-3xl">Profile</span>
       <br />
-      <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6">Name : {session.user?.name}</h1>
+      <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6">Name : </h1>
+      {/* {session.user?.name} */}
       <br />
-      <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6">Email : {session.user?.email}</h1>
-      {/* <br />
-      <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6">Type :  {session.user?.role}</h1> */}
+      <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6">Email : </h1>
+      {/* {session.user?.email} */}
       <br />
-      {/* <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6">Contact : </h1>
-      <br /> */}
+      <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6">Type :  </h1>
+      {/* {session.user?.role} */}
+      <br />
+      <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6">Contact : </h1>
+      <br />
       <span className="font-bold text-3xl">Credentials</span>
       <br />
-      {/* <div className="bg-purple-300 border border-500 w-80 h-12 rounded-lg">
-      <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6">{session.user?.Credentials}</h1>
-      </div> */}
+      <div className="bg-purple-300 border border-500 w-80 h-12 rounded-lg">
+      <h1 className="bg-purple-300 w-80 h-12 justify-center font-bold p-4 rounded-md mb-6"> </h1>
+      {/* {session.user?.Credentials} */}
+      </div>
     </>
 
     {/* <p>{JSON.stringify(session)}</p> */}
